@@ -1,0 +1,146 @@
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.content{
+  width: 70%;
+  height: 100%;
+  background: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+.nav{
+  display: flex;
+}
+
+.options{
+  font-family: 'Boogaloo', cursive;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.options > li{
+  width: 30%;
+}
+
+.nav-options{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 10px;
+}
+
+.nav-options > li{
+  margin: 10px;
+}
+
+.nav-options > li:hover{
+  color: rgb(235,208,46);
+  cursor: pointer;
+}
+
+.logo{
+  width: 100%;
+}
+
+.splash{
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer{
+  width: 100%;
+  background-color: rgb(235,208,46);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hours{
+  width: 30%;
+  padding: 20px;
+}
+
+.hours > h2{
+  padding: 10px 7px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.hours > li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  margin: 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+
+.find-us-map{
+  padding: 20px;
+  width: 30%;
+}
+
+.find-us-map > h2{
+  padding: 10px 7px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.social-media{
+  padding: 20px;
+  width: 30%;
+}
+
+.social-media > h2{
+  padding: 10px 7px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.social-media > ul{
+  padding: 10px 7px;
+  display: flex;
+  font-size: 32px;
+}
+
+.social-media > ul > li{
+  padding: 5px;
+}
+
+#hashtag{
+  font-size: 20px;
+}
+
+.social-media > ul > li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.developer{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  background: white;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: grey;
+  padding: 15px 0;
+}
+
+.developer > div{
+  margin: 0 20px;
+}
