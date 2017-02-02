@@ -5,10 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('https://res.cloudinary.com/deeptailor/image/upload/b_rgb:000,o_72/v1485941764/Abstract_Black_Wallpaper_1920x1080_Abstract_Black_White_Yellow_..._lrsufg.jpg');
-  background-color: black;
-  background-position: center;
-  background-size: cover;
+  background: url('https://res.cloudinary.com/deeptailor/image/upload/v1485941764/Abstract_Black_Wallpaper_1920x1080_Abstract_Black_White_Yellow_..._lrsufg.jpg') no-repeat fixed;
+  background-size: 100% 100%;
 }
 
 .content{
